@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SuiteTesst-ML-Abstracta" verbose="1" parallel="tests" thread-count="1">
+
+    <parameter name="search" value="Autos"/>
+    <parameter name="browser" value="chrome"/>
+    <!--    <parameter name="browser" value="firefox"/>              &lt;!&ndash; (firefox)&ndash;&gt;-->
+
+    <test name="Test in Chrome">
+        <classes>
+            <class name="Tests.TestCaseNavigate">
+                <methods>
+                    <include name="searchAutos"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

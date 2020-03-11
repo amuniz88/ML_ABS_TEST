@@ -1,0 +1,7 @@
+PageObjects\navigatePage.class
+PageObjects\BasePO.class
+Utils\GetProperties.class
+PageObjects\BasePage.class
+Tests\TestCaseNavigate.class
+Utils\SeleniumUtils.class
+Tests\BaseTest.class
