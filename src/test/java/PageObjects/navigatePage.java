@@ -9,10 +9,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-
 public class navigatePage {
 
     @FindBy(name = "as_word")

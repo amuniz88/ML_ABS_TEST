@@ -7,7 +7,6 @@ import org.openqa.selenium.WebElement;
 public class BasePage extends BasePO{
 
     protected navigatePage npage;
-    protected Catalogo cata;
 
     public BasePage(WebDriver driver){
         super(driver);
